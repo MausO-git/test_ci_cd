@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      -
+
 env:
   # On force l'utilisation de Node 24 pour les scripts internes de GitHub
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
