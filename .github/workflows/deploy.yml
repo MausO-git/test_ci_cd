@@ -38,6 +38,6 @@ jobs:
           # port: 22 # pour le SFTP - SSH mais o2switch à une protection IP donc FTPS (secure)
           port: 21
           protocol: ftps
-          local-dir: ./build/ # ATTENTION : remplace par ./dist/ si tu utilises Vite !
+          local-dir: ./dist/ # ATTENTION : remplace par ./dist/ si tu utilises Vite !
           server-dir: ./public_html/test_ci_cd/
           dangerous-clean-slate: false # met true si tu veux vider le dossier avant
